@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import Input from "./Input"
 import List from "./List"
 
-// solve problems first -> if it works its good
-// if you have extratime after solving a problem, DRY it up, make it readable
-// only optimize when you need to
+// solve problems first -> if it works its good, passes tests and is bug free, you are g2g
+// if you have extra time after solving a problem, DRY it up, make it readable, make it better code for the next engineer who is going to work on it
+// only optimize when you need to, over optimization up front can lead to wasted time, especially when you optimizae things you didn't neet to
 
 export default class FruitContainer extends Component {
     // define the state of filtered fruits
