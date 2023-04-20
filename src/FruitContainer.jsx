@@ -2,6 +2,10 @@ import React, { Component } from "react"
 import Input from "./Input"
 import List from "./List"
 
+// solve problems first -> if it works its good
+// if you have extratime after solving a problem, DRY it up, make it readable
+// only optimize when you need to
+
 export default class FruitContainer extends Component {
     // define the state of filtered fruits
     state = {
